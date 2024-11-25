@@ -1,20 +1,11 @@
 cmake_minimum_required(VERSION 3.10 FATAL_ERROR)
+list(APPEND CMAKE_PREFIX_PATH "d:/Dmitriy/ITMO/CompGraphics/mse-gl-hw-2/thirdparty/draco")
+list(APPEND CMAKE_PREFIX_PATH "d:/Dmitriy/ITMO/CompGraphics/mse-gl-hw-2/thirdparty/draco/cmake")
 
 project(mse-gl-hw-template VERSION 1.0.0 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-
-if (MSVC)
-    # warning level 4 and all warnings as errors
-    add_compile_options(/W4 /WX)
-    # disable warning for qt.
-    add_compile_options(/wd5240)
-    add_compile_options(/wd5054)
-else()
-    # lots of warnings and all warnings as errors
-    add_compile_options(-Wall -Wextra -pedantic -Werror)
-endif()
 
 add_subdirectory(thirdparty)
 
