@@ -5,10 +5,10 @@
 - WASD Ctrl Space -- перемещение;
 - Повороты камеры с помощью ЛКМ.
 
-![0](pictures\0.png "0")
-![1](pictures\1.png "1")
-![2](pictures\2.png "2")
-![3](pictures\3.png "3")
+![0](./pictures/0.png "0")
+![1](./pictures/1.png "1")
+![2](./pictures/2.png "2")
+![3](./pictures/3.png "3")
 
 # ITMO MSE OpenGL homework template 2022
 
